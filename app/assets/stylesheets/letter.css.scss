@@ -1,0 +1,277 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-bottom: 0px;
+  color: #2f052b;
+}
+
+.alert {
+  position: absolute;  
+  top: 75px;
+  width: 100%;
+}
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+/* BJ add */
+  font-size: 20px;   
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+/* BJ add */
+  background-color: transparent; 
+  border-bottom: none; 
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+.navbar-wrapper .navbar-brand {
+/* BJ add */
+  color: red;
+  font-size: 22px;  
+}
+
+
+/* BJ add */
+/* unvisited link */
+.navbar-wrapper .navbar-nav a:link {
+  text-decoration: none;
+/*  color: white; */
+}
+
+/* visited link */
+.navbar-wrapper .navbar-nav a:visited {
+  text-decoration: none;
+/*  color: white; */
+}
+
+/* mouse over link */
+.navbar-wrapper .navbar-nav a:hover {
+  text-decoration: none;
+  color: purple; 
+  border-bottom: solid;
+  border-color: red;
+}
+
+
+/* selected link */
+.navbar-wrapper .navbar-nav a:active {
+  text-decoration: none;
+  color: purple; 
+}
+/* END BJ add */
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 500px;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+.carousel .jumbotron {
+  background-color: #2f052b;
+  opacity: 0.9;
+  color: white;
+  border: solid; 
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+
+/* BLURE CONTENT
+-------------------------------------------------- */
+.myblure {
+  relative: absolute;
+  top: 0;
+  left: 0;
+  height: 300px;
+  background:url(img_welcome_bottom.jpg);
+  background-repeat:no-repeat;
+  background-size: 100% 100%;
+  color: white;
+}
+
+
+.myblure p,
+.myblure h2 {
+  padding-top: 30px;
+  margin-top: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+/* MYDATA CONTENT
+-------------------------------------------------- */
+.mydata {
+  background:url(blur_background.jpg);
+  background-repeat:no-repeat;
+  background-size: 100% 100%;
+  top: 0;
+  left: 0;
+  padding-top: 130px;
+  padding-bottom: 30px;
+}
+
+.mydata .container {
+  background-color: #eee;
+  opacity: 0.9;
+  color: black;
+  relative: absolute;
+  top: 0;
+  left: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+footer {
+  min-height: 400px;
+  background-color: #2f052b; 
+  color: #777;
+}
+
+footer p, 
+footer address {
+  padding-top: 80px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+footer a {
+  color: #5bc0de
+} 
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+}
+
+#error_expl {
+  color: #f00;
+}
+
+#lightbox .modal-content {
+    display: inline-block;
+    text-align: center;   
+}
+
+#lightbox .close {
+    opacity: 1;
+    color: rgb(255, 255, 255);
+    background-color: rgb(25, 25, 25);
+    padding: 5px 8px;
+    border-radius: 30px;
+    border: 2px solid rgb(255, 255, 255);
+    position: absolute;
+    top: -15px;
+    right: -55px;
+    
+    z-index:1032;
+}

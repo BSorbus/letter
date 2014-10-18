@@ -1,0 +1,41 @@
+#default: &default
+#  adapter: sqlite3
+#  pool: 5
+#  timeout: 5000
+#
+#development:
+#  <<: *default
+#  database: db/development.sqlite3
+#
+#test:
+#  <<: *default
+#  database: db/test.sqlite3
+#
+#production:
+#  <<: *default
+#  database: db/production.sqlite3
+#
+
+###############################################
+
+development:
+  adapter: postgresql
+  host:     localhost
+  database: letter_development
+  pool: 5
+  username: postgres
+
+test:
+  adapter: postgresql
+  host:     localhost
+  database: letter_test
+  pool: 5
+  username: postgres
+
+production:
+  adapter: postgresql
+  host:     localhost
+  database: letter_production
+  pool: 5
+  username: postgres
+

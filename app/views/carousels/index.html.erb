@@ -1,0 +1,58 @@
+<div class="mydata">
+  <div class="container">
+    <p class="lead text-center">Lista slajdów</p>
+
+    <table class="table table-hover">
+       <tbody>
+        <% @carousels.each do |carousel| %>
+          <tr>
+            <td>
+              <a href="#" class="thumbnail" data-toggle="modal" data-target="#lightbox"> 
+                <%= image_tag(carousel.image, size: "300x100", :class => "image img-responsive") %>
+              </a>
+            </td>
+
+            <td><strong><%= carousel.title %></strong><br>
+                <%= carousel.caption %></td>
+
+              <% if carousel.promotion? %>
+                <td><span class="glyphicon glyphicon-ok"></span><br>
+              <% else %>
+                <td><span class="glyphicon glyphicon-remove"></span><br>
+              <% end %>
+
+              <% if carousel.visible? %>
+                <span class="glyphicon glyphicon-ok"></span></td>
+              <% else %>
+                <span class="glyphicon glyphicon-remove"></span></td>
+              <% end %>
+            <td>
+              <%= link_to ' ', edit_carousel_path(carousel), 
+                  :class => "glyphicon glyphicon-edit", title: 'Edycja', rel: 'tooltip' %>
+
+              <%= link_to ' ', carousel_path(carousel), method: :delete, data: { confirm: 'Are you sure?' }, 
+                  :class => "glyphicon glyphicon-trash", title: 'Usuń', rel: 'tooltip' %>
+            </td>
+          </tr>
+        <% end %>
+      </tbody>
+    </table>
+
+    <br>
+
+    <%= link_to ' Dodaj slajd', new_carousel_path, 
+                :class => "btn btn-primary glyphicon glyphicon-star-empty pull-right" %>
+
+  </div>
+</div>
+
+<div id="lightbox" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <button type="button" class="close hidden" data-dismiss="modal" aria-hidden="true">×</button>
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="" alt="" />
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,131 @@
+
+
+<!-- Carousel
+================================================== -->
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <% @carousels.each_with_index do |carousel, index| %>
+      <% if carousel == @carousels.first %>
+        <li data-target="#myCarousel" data-slide-to=<%= index %> class="active"></li>
+      <% else %>
+        <li data-target="#myCarousel" data-slide-to=<%= index %>></li>
+      <% end %>
+    <% end %>
+   </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <% @carousels.each do |carousel| %>
+      <% if carousel == @carousels.first %>
+        <div class="item active">
+      <% else %>
+        <div class="item">
+      <% end %>
+        <%= image_tag( carousel.image ) %>
+        <div class="carousel-caption">
+          <% if carousel.promotion? %> <!-- Promotion! -->
+            <div class="jumbotron">
+              <div class="container">
+                <h1><%= carousel.title %></h1>
+                <p class="lead"><%= carousel.caption %></p>
+              </div>
+            </div>
+          <% else %>
+            <h1><%= carousel.title %></h1>
+            <p class="lead"><%= carousel.caption %></p>
+          <% end %>
+        </div>
+      </div>
+    <% end %>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+</div><!-- /.carousel -->
+
+
+<!-- Marketing messaging and featurettes
+================================================== -->
+<!-- Wrap the rest of the page in another container to center all the content. -->
+
+<div class="container marketing">
+
+  <!-- Three columns of text below the carousel -->
+  <div class="row">
+    <div class="col-lg-4">
+      <%= image_tag("images11_140x140.jpg", size: "140x140", :class => "img-circle" ) %>
+      <h2>Heading</h2>
+      <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+      <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+    </div><!-- /.col-lg-4 -->
+    <div class="col-lg-4">
+      <%= image_tag("images12_140x140.jpg", size: "140x140", :class => "img-circle" ) %>
+<!--      <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+-->
+      <h2>Heading</h2>
+      <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+      <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+    </div><!-- /.col-lg-4 -->
+    <div class="col-lg-4">
+      <%= image_tag("images13_140x140.jpg", size: "140x140", :class => "img-circle" ) %>
+      <h2>Heading</h2>
+      <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+      <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+    </div><!-- /.col-lg-4 -->
+  </div><!-- /.row -->
+
+
+  <!-- START THE FEATURETTES -->
+
+  <hr class="featurette-divider">
+
+  <div class="row featurette">
+    <div class="col-md-7">
+      <h2 class="featurette-heading">Pierwsza myśl. <span class="text-muted">Czy widzisz to?</span></h2>
+      <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+    </div>
+    <div class="col-md-5">
+      <%= image_tag("images1_500x500.jpg", size: "500x500", :class => "featurette-image img-responsive" ) %>
+<!--      <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+--> </div>
+  </div>
+
+  <hr class="featurette-divider">
+
+  <div class="row featurette">
+    <div class="col-md-5">
+      <%= image_tag("images2_500x500.jpg", size: "500x500", :class => "featurette-image img-responsive" ) %>
+<!--      <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+-->    </div>
+    <div class="col-md-7">
+      <h2 class="featurette-heading">O tak, to jest niezłe. <span class="text-muted">A może pragniesz inaczej?</span></h2>
+      <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+    </div>
+  </div>
+
+  <hr class="featurette-divider">
+
+  <div class="row featurette">
+    <div class="col-md-7">
+      <h2 class="featurette-heading">I może jeszcze raz. <span class="text-muted">Czy teraz jest najlepiej?</span></h2>
+      <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+    </div>
+    <div class="col-md-5">
+      <%= image_tag("images3_500x500.jpg", size: "500x500", :class => "featurette-image img-responsive" ) %>
+<!--      <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+-->    </div>
+  </div>
+
+  <!-- <hr class="featurette-divider"> BJ -->
+
+  <!-- /END THE FEATURETTES -->
+</div> <!-- /.container marketing -->
+
+
+<div class="myblure">
+      <h2 class="featurette-heading">Bądź kreatywny</h2>
+      <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+</div><!-- /.myblure -->
+

@@ -1,0 +1,81 @@
+<%= form_for @carousel, :html => { :class => "form-horizontal carousel" } do |f| %>
+
+  <% if @carousel.errors.any? %>
+    <div id="error_expl" class="panel panel-danger">
+      <div class="panel-heading">
+        <h3 class="panel-title"><%= pluralize(@carousel.errors.count, "error") %> prohibited this carousel from being saved:</h3>
+      </div>
+      <div class="panel-body">
+        <ul>
+        <% @carousel.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+        </ul>
+      </div>
+    </div>
+  <% end %>
+
+
+    <div class="row control-group">
+      <%= f.label :title, :class => "control-label col-sm-3" %>
+      <div class="controls col-sm-7">
+        <%= f.text_field :title, autofocus: true, :class => "form-control", placeholder: 'Tytuł strony' %>
+        <small class="help-block">Ten tytuł jest wyświetlany dużą czcionką</small>
+      </div>
+    </div><br>
+
+    <div class="row control-group">
+    <%= f.label :caption, :class => "control-label col-sm-3" %>
+      <div class="controls col-sm-7">
+        <%= f.text_area :caption, :rows => 3, :cols => 250, :class => "form-control", placeholder: 'Treść wyświetlana na zdjęciu' %>
+        <small class="help-block">Długi opis umieszczony poniżej tytułu. Może składać się z kilku wierszy</small>
+      </div>
+    </div><br>
+
+
+    <div class="row control-group">
+      <%= f.label :image, :class => "control-label col-sm-3" %>
+      <div class="controls col-sm-7">               
+        <%= image_tag(@carousel.image, size: "300x100", :class => "img-thumbnail img-responsive") if @carousel.image? %><br> 
+        <%= @carousel.image_identifier if @carousel.image? %><br>
+        <%= f.file_field :image, :class => "form-control" %>
+        <small class="help-block">Najlepiej, gdy zdjęcie jest w rozdzielczości 1500x500</small>
+      </div>
+    </div><br>
+
+
+    <div class="row control-group">
+      <%= f.label :promotion, :class => "control-label col-sm-3" %>
+      <div class="controls col-sm-7">
+        <%= f.check_box :promotion, { checked_value: true, unchecked_value: false }  %>
+        <small class="help-block">Zaznacz jeżeli slajd ma być wyświatlany nietypowo, jako promocja</small>
+      </div>
+    </div><br>
+
+    <div class="row control-group">
+      <%= f.label :visible, :class => "control-label col-sm-3" %>
+      <div class="controls col-sm-7">
+        <%= f.check_box :visible, { checked_value: true, unchecked_value: false }  %>
+        <small class="help-block">Zaznacz jeżeli ma być wyświetlany ten slajd</small>
+      </div>
+    </div><br>
+
+    <div class="row">
+      <div class="col-sm-7 col-sm-offset-3">
+        <%= f.submit :class => "btn btn-primary" %>
+        <%= link_to 'Back', :back, :class => "btn btn-default" %>
+      </div>
+    </div>
+
+<% end %>
+
+<div id="lightbox" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <button type="button" class="close hidden" data-dismiss="modal" aria-hidden="true">×</button>
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="" alt="" />
+      </div>
+    </div>
+  </div>
+</div>
