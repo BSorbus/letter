@@ -89592,3 +89592,748 @@ Started GET "/users/auth/facebook" for 127.0.0.1 at 2014-10-20 15:55:40 +0200
 
 
 Started GET "/users/auth/facebook" for 127.0.0.1 at 2014-10-20 15:55:40 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-20 19:32:31 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (1.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  [1m[35mCarousel Load (1.8ms)[0m  SELECT "carousels".* FROM "carousels"  WHERE "carousels"."visible" = 't'  ORDER BY "carousels"."id" ASC
+  Rendered welcome/index.html.erb within layouts/application (46.5ms)
+  Rendered layouts/_navigation.html.erb (9.7ms)
+  Rendered layouts/_messages.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (3.1ms)
+Completed 200 OK in 836ms (Views: 798.8ms | ActiveRecord: 6.8ms)
+
+
+Started GET "/assets/framework_and_overrides.css?body=1" for 127.0.0.1 at 2014-10-20 19:32:32 +0200
+
+
+Started GET "/assets/letter.css?body=1" for 127.0.0.1 at 2014-10-20 19:32:32 +0200
+
+
+Started GET "/assets/omniauth_callbacks.css?body=1" for 127.0.0.1 at 2014-10-20 19:32:32 +0200
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2014-10-20 19:32:32 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-20 19:32:32 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-20 19:32:32 +0200
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 127.0.0.1 at 2014-10-20 19:32:32 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-20 19:32:32 +0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-10-20 19:32:32 +0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-10-20 19:32:32 +0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-10-20 19:32:32 +0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-10-20 19:32:32 +0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-10-20 19:32:32 +0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-20 19:32:32 +0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-10-20 19:32:32 +0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-10-20 19:32:32 +0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-10-20 19:32:32 +0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-10-20 19:32:32 +0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-10-20 19:32:32 +0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-10-20 19:32:33 +0200
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-10-20 19:32:33 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-20 19:32:33 +0200
+
+
+Started GET "/assets/auto_close_alert.js?body=1" for 127.0.0.1 at 2014-10-20 19:32:33 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-20 19:32:33 +0200
+
+
+Started GET "/assets/carousel.js?body=1" for 127.0.0.1 at 2014-10-20 19:32:33 +0200
+
+
+Started GET "/assets/lightbox.js?body=1" for 127.0.0.1 at 2014-10-20 19:32:33 +0200
+
+
+Started GET "/assets/omniauth_callbacks.js?body=1" for 127.0.0.1 at 2014-10-20 19:32:33 +0200
+
+
+Started GET "/assets/spinner.js?body=1" for 127.0.0.1 at 2014-10-20 19:32:33 +0200
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2014-10-20 19:32:33 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-20 19:32:33 +0200
+
+
+Started GET "/assets/images11_140x140.jpg" for 127.0.0.1 at 2014-10-20 19:32:33 +0200
+
+
+Started GET "/assets/images12_140x140.jpg" for 127.0.0.1 at 2014-10-20 19:32:33 +0200
+
+
+Started GET "/assets/images13_140x140.jpg" for 127.0.0.1 at 2014-10-20 19:32:33 +0200
+
+
+Started GET "/assets/images1_500x500.jpg" for 127.0.0.1 at 2014-10-20 19:32:33 +0200
+
+
+Started GET "/assets/images2_500x500.jpg" for 127.0.0.1 at 2014-10-20 19:32:33 +0200
+
+
+Started GET "/assets/images3_500x500.jpg" for 127.0.0.1 at 2014-10-20 19:32:33 +0200
+
+
+Started GET "/assets/facebook29.png" for 127.0.0.1 at 2014-10-20 19:32:33 +0200
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-10-20 19:32:33 +0200
+
+
+Started GET "/assets/img_welcome_bottom.jpg" for 127.0.0.1 at 2014-10-20 19:32:33 +0200
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2014-10-20 19:32:33 +0200
+
+
+Started GET "/admin" for 127.0.0.1 at 2014-10-20 19:32:40 +0200
+
+ActionController::RoutingError (No route matches [GET] "/admin"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/bodzio/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/bodzio/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/bodzio/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/bodzio/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /home/bodzio/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (6.0ms)
+  Rendered /home/bodzio/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (13.7ms)
+  Rendered /home/bodzio/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (81.2ms)
+  [1m[36m (2.8ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [1m[35m (3.1ms)[0m  CREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateCarousels (20141015104447)
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (7.3ms)[0m  [1mCREATE TABLE "carousels" ("id" serial primary key, "title" character varying(255), "caption" character varying(255), "image" character varying(255), "visible" boolean, "promotion" boolean, "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20141015104447"]]
+  [1m[36m (1.4ms)[0m  [1mCOMMIT[0m
+Migrating to DeviseCreateUsers (20141018123346)
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36m (7.4ms)[0m  [1mCREATE TABLE "users" ("id" serial primary key, "name" character varying(255) DEFAULT '' NOT NULL, "email" character varying(255) DEFAULT '' NOT NULL, "encrypted_password" character varying(255) DEFAULT '' NOT NULL, "reset_password_token" character varying(255), "reset_password_sent_at" timestamp, "remember_created_at" timestamp, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" timestamp, "last_sign_in_at" timestamp, "current_sign_in_ip" inet, "last_sign_in_ip" inet, "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35m (1.9ms)[0m  CREATE UNIQUE INDEX  "index_users_on_name" ON "users"  ("name")
+  [1m[36m (1.8ms)[0m  [1mCREATE UNIQUE INDEX  "index_users_on_email" ON "users"  ("email")[0m
+  [1m[35m (1.6ms)[0m  CREATE UNIQUE INDEX  "index_users_on_reset_password_token" ON "users"  ("reset_password_token")
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ($1)[0m  [["version", "20141018123346"]]
+  [1m[35m (0.9ms)[0m  COMMIT
+Migrating to CreateIdentities (20141018125659)
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35m (6.0ms)[0m  CREATE TABLE "identities" ("id" serial primary key, "user_id" integer, "provider" character varying(255), "uid" character varying(255), "created_at" timestamp, "updated_at" timestamp) 
+  [1m[36m (1.9ms)[0m  [1mCREATE  INDEX  "index_identities_on_user_id" ON "identities"  ("user_id")[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20141018125659"]]
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+Migrating to DropIdentityTable (20141020122543)
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (2.4ms)[0m  [1mDROP TABLE "identities"[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20141020122543"]]
+  [1m[36m (1.4ms)[0m  [1mCOMMIT[0m
+Migrating to DropUserTable (20141020122618)
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (3.0ms)[0m  [1mDROP TABLE "users"[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20141020122618"]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+Migrating to CreateUsers (20141020123420)
+  [1m[35m (1.1ms)[0m  BEGIN
+  [1m[36m (6.0ms)[0m  [1mCREATE TABLE "users" ("id" serial primary key, "name" character varying(255), "about" text, "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20141020123420"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+Migrating to AddDeviseToUsers (20141020123744)
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36m (6.4ms)[0m  [1mALTER TABLE "users" ADD COLUMN "email" character varying(255) DEFAULT ''[0m
+  [1m[35m (6.2ms)[0m  ALTER TABLE "users" ADD COLUMN "encrypted_password" character varying(255) DEFAULT '' NOT NULL
+  [1m[36m (0.5ms)[0m  [1mALTER TABLE "users" ADD COLUMN "reset_password_token" character varying(255)[0m
+  [1m[35m (0.4ms)[0m  ALTER TABLE "users" ADD COLUMN "reset_password_sent_at" timestamp
+  [1m[36m (0.4ms)[0m  [1mALTER TABLE "users" ADD COLUMN "remember_created_at" timestamp[0m
+  [1m[35m (8.0ms)[0m  ALTER TABLE "users" ADD COLUMN "sign_in_count" integer DEFAULT 0
+  [1m[36m (0.5ms)[0m  [1mALTER TABLE "users" ADD COLUMN "current_sign_in_at" timestamp[0m
+  [1m[35m (0.4ms)[0m  ALTER TABLE "users" ADD COLUMN "last_sign_in_at" timestamp
+  [1m[36m (0.4ms)[0m  [1mALTER TABLE "users" ADD COLUMN "current_sign_in_ip" character varying(255)[0m
+  [1m[35m (0.4ms)[0m  ALTER TABLE "users" ADD COLUMN "last_sign_in_ip" character varying(255)
+  [1m[36m (0.4ms)[0m  [1mALTER TABLE "users" ADD COLUMN "confirmation_token" character varying(255)[0m
+  [1m[35m (0.5ms)[0m  ALTER TABLE "users" ADD COLUMN "confirmed_at" timestamp
+  [1m[36m (0.5ms)[0m  [1mALTER TABLE "users" ADD COLUMN "confirmation_sent_at" timestamp[0m
+  [1m[35m (0.4ms)[0m  ALTER TABLE "users" ADD COLUMN "unconfirmed_email" character varying(255)
+  [1m[36m (0.4ms)[0m  [1mALTER TABLE "users" ADD COLUMN "authentication_token" character varying(255)[0m
+  [1m[35m (1.9ms)[0m  CREATE UNIQUE INDEX  "index_users_on_email" ON "users"  ("email")
+  [1m[36m (1.7ms)[0m  [1mCREATE UNIQUE INDEX  "index_users_on_reset_password_token" ON "users"  ("reset_password_token")[0m
+  [1m[35m (1.7ms)[0m  CREATE UNIQUE INDEX  "index_users_on_confirmation_token" ON "users"  ("confirmation_token")
+  [1m[36m (1.7ms)[0m  [1mCREATE UNIQUE INDEX  "index_users_on_authentication_token" ON "users"  ("authentication_token")[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20141020123744"]]
+  [1m[36m (2.7ms)[0m  [1mCOMMIT[0m
+Migrating to CreateAuthorizations (20141020125006)
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36m (6.1ms)[0m  [1mCREATE TABLE "authorizations" ("id" serial primary key, "provider" character varying(255), "uid" character varying(255), "user_id" integer, "token" character varying(255), "secret" character varying(255), "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20141020125006"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+Migrating to AddImageToUser (20141020125308)
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.7ms)[0m  [1mALTER TABLE "users" ADD COLUMN "image" character varying(255)[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20141020125308"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+Migrating to AddUsernameToAuthorization (20141020125408)
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.6ms)[0m  [1mALTER TABLE "authorizations" ADD COLUMN "username" character varying(255)[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20141020125408"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+Migrating to AddLocationToUser (20141020125606)
+  [1m[35m (0.9ms)[0m  BEGIN
+  [1m[36m (0.6ms)[0m  [1mALTER TABLE "users" ADD COLUMN "location" character varying(255)[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20141020125606"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+Migrating to AddUsernameToUser (20141020125649)
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.6ms)[0m  [1mALTER TABLE "users" ADD COLUMN "username" character varying(255)[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20141020125649"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.4ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/admin" for 127.0.0.1 at 2014-10-20 19:34:59 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (2.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+ActionController::RoutingError (No route matches [GET] "/admin"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/bodzio/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/bodzio/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/bodzio/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/bodzio/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /home/bodzio/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (5.6ms)
+  Rendered /home/bodzio/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (10.8ms)
+  Rendered /home/bodzio/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (62.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-20 19:47:25 +0200
+Processing by WelcomeController#index as HTML
+  [1m[35mCarousel Load (5.0ms)[0m  SELECT "carousels".* FROM "carousels"  WHERE "carousels"."visible" = 't'  ORDER BY "carousels"."id" ASC
+  Rendered welcome/index.html.erb within layouts/application (27.6ms)
+  Rendered layouts/_navigation.html.erb (8.8ms)
+  Rendered layouts/_messages.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (2.4ms)
+Completed 200 OK in 1242ms (Views: 1208.0ms | ActiveRecord: 7.2ms)
+
+
+Started GET "/assets/framework_and_overrides.css?body=1" for 127.0.0.1 at 2014-10-20 19:47:27 +0200
+
+
+Started GET "/assets/letter.css?body=1" for 127.0.0.1 at 2014-10-20 19:47:27 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-20 19:47:27 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-20 19:47:27 +0200
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 127.0.0.1 at 2014-10-20 19:47:27 +0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-10-20 19:47:27 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-20 19:47:27 +0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-10-20 19:47:27 +0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-10-20 19:47:27 +0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-10-20 19:47:27 +0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-20 19:47:27 +0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-10-20 19:47:27 +0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-10-20 19:47:27 +0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-10-20 19:47:27 +0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-10-20 19:47:27 +0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-10-20 19:47:27 +0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-10-20 19:47:27 +0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-10-20 19:47:27 +0200
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-10-20 19:47:27 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-20 19:47:27 +0200
+
+
+Started GET "/assets/auto_close_alert.js?body=1" for 127.0.0.1 at 2014-10-20 19:47:27 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-20 19:47:27 +0200
+
+
+Started GET "/assets/carousel.js?body=1" for 127.0.0.1 at 2014-10-20 19:47:27 +0200
+
+
+Started GET "/assets/lightbox.js?body=1" for 127.0.0.1 at 2014-10-20 19:47:27 +0200
+
+
+Started GET "/assets/omniauth_callbacks.js?body=1" for 127.0.0.1 at 2014-10-20 19:47:27 +0200
+
+
+Started GET "/assets/spinner.js?body=1" for 127.0.0.1 at 2014-10-20 19:47:27 +0200
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2014-10-20 19:47:27 +0200
+
+
+Started GET "/assets/images11_140x140.jpg" for 127.0.0.1 at 2014-10-20 19:47:27 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-20 19:47:27 +0200
+
+
+Started GET "/assets/images12_140x140.jpg" for 127.0.0.1 at 2014-10-20 19:47:27 +0200
+
+
+Started GET "/assets/images13_140x140.jpg" for 127.0.0.1 at 2014-10-20 19:47:27 +0200
+
+
+Started GET "/assets/images1_500x500.jpg" for 127.0.0.1 at 2014-10-20 19:47:27 +0200
+
+
+Started GET "/assets/images2_500x500.jpg" for 127.0.0.1 at 2014-10-20 19:47:27 +0200
+
+
+Started GET "/assets/images3_500x500.jpg" for 127.0.0.1 at 2014-10-20 19:47:27 +0200
+
+
+Started GET "/assets/facebook29.png" for 127.0.0.1 at 2014-10-20 19:47:27 +0200
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-10-20 19:47:28 +0200
+
+
+Started GET "/assets/img_welcome_bottom.jpg" for 127.0.0.1 at 2014-10-20 19:47:28 +0200
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2014-10-20 19:47:28 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-20 19:47:35 +0200
+Processing by WelcomeController#index as HTML
+  [1m[36mCarousel Load (0.6ms)[0m  [1mSELECT "carousels".* FROM "carousels"  WHERE "carousels"."visible" = 't'  ORDER BY "carousels"."id" ASC[0m
+  Rendered welcome/index.html.erb within layouts/application (4.5ms)
+  Rendered layouts/_navigation.html.erb (1.8ms)
+  Rendered layouts/_messages.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.8ms)
+Completed 200 OK in 378ms (Views: 376.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/carousels" for 127.0.0.1 at 2014-10-20 19:47:41 +0200
+Processing by CarouselsController#index as HTML
+  [1m[35mCarousel Load (0.7ms)[0m  SELECT "carousels".* FROM "carousels"   ORDER BY "carousels"."id" ASC
+  Rendered carousels/index.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 375ms (Views: 373.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/blur_background.jpg" for 127.0.0.1 at 2014-10-20 19:47:41 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mCarousel Exists (1.5ms)[0m  [1mSELECT  1 AS one FROM "carousels"  WHERE "carousels"."title" = 'Walentynki!' LIMIT 1[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "carousels" ("caption", "created_at", "image", "promotion", "title", "updated_at", "visible") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["caption", "Walentynkowa promocja -10% na wszystko. Skorzystaj z okazji i zrób ukochanej niebanalny prezent."], ["created_at", "2014-10-20 17:47:58.647573"], ["image", "img0.jpg"], ["promotion", "t"], ["title", "Walentynki!"], ["updated_at", "2014-10-20 17:47:58.647573"], ["visible", "t"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mCarousel Exists (0.6ms)[0m  [1mSELECT  1 AS one FROM "carousels"  WHERE "carousels"."title" = 'Znajdź litery' LIMIT 1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "carousels" ("caption", "created_at", "image", "promotion", "title", "updated_at", "visible") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["caption", "Litery znajdują się wszędzie. Przyjrzyj się uważnie otoczeniu i odkryj, że występują one w wodzie, powietrzu i na lądzie."], ["created_at", "2014-10-20 17:47:58.660675"], ["image", "img1.jpg"], ["promotion", "f"], ["title", "Znajdź litery"], ["updated_at", "2014-10-20 17:47:58.660675"], ["visible", "t"]]
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mCarousel Exists (0.5ms)[0m  [1mSELECT  1 AS one FROM "carousels"  WHERE "carousels"."title" = 'Zbuduj wyraz używając zdjęć' LIMIT 1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "carousels" ("caption", "created_at", "image", "promotion", "title", "updated_at", "visible") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["caption", "Nasza kolekacja liter jest podzielona na wiele kategorii. Podobnie jak Ciebie, ogranicza nas tylko wyobraźnia."], ["created_at", "2014-10-20 17:47:58.671927"], ["image", "img2.jpg"], ["promotion", "f"], ["title", "Zbuduj wyraz używając zdjęć"], ["updated_at", "2014-10-20 17:47:58.671927"], ["visible", "t"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mCarousel Exists (0.5ms)[0m  [1mSELECT  1 AS one FROM "carousels"  WHERE "carousels"."title" = 'Dobierz ramkę i tło' LIMIT 1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "carousels" ("caption", "created_at", "image", "promotion", "title", "updated_at", "visible") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["caption", "Jesteś na ostatniej prostej, by skomponować swój obraz. Dobierz ramkę i tło, złóż zamówienie i czekaj na paczkę."], ["created_at", "2014-10-20 17:47:58.681734"], ["image", "img3.jpg"], ["promotion", "f"], ["title", "Dobierz ramkę i tło"], ["updated_at", "2014-10-20 17:47:58.681734"], ["visible", "t"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+
+
+Started GET "/carousels" for 127.0.0.1 at 2014-10-20 19:48:06 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CarouselsController#index as HTML
+  [1m[35mCarousel Load (1.3ms)[0m  SELECT "carousels".* FROM "carousels"   ORDER BY "carousels"."id" ASC
+  Rendered carousels/index.html.erb within layouts/application (25.9ms)
+  Rendered layouts/_navigation.html.erb (8.0ms)
+  Rendered layouts/_messages.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (2.9ms)
+Completed 200 OK in 754ms (Views: 723.7ms | ActiveRecord: 4.3ms)
+
+
+Started GET "/assets/framework_and_overrides.css?body=1" for 127.0.0.1 at 2014-10-20 19:48:07 +0200
+
+
+Started GET "/assets/letter.css?body=1" for 127.0.0.1 at 2014-10-20 19:48:08 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-20 19:48:08 +0200
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 127.0.0.1 at 2014-10-20 19:48:08 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-20 19:48:08 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-20 19:48:08 +0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-10-20 19:48:08 +0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-10-20 19:48:08 +0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-10-20 19:48:08 +0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-10-20 19:48:08 +0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-10-20 19:48:08 +0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-20 19:48:08 +0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-10-20 19:48:08 +0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-10-20 19:48:08 +0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-10-20 19:48:08 +0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-10-20 19:48:08 +0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-10-20 19:48:08 +0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-10-20 19:48:08 +0200
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-10-20 19:48:08 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-20 19:48:08 +0200
+
+
+Started GET "/assets/auto_close_alert.js?body=1" for 127.0.0.1 at 2014-10-20 19:48:08 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-20 19:48:08 +0200
+
+
+Started GET "/assets/carousel.js?body=1" for 127.0.0.1 at 2014-10-20 19:48:08 +0200
+
+
+Started GET "/assets/lightbox.js?body=1" for 127.0.0.1 at 2014-10-20 19:48:08 +0200
+
+
+Started GET "/assets/omniauth_callbacks.js?body=1" for 127.0.0.1 at 2014-10-20 19:48:08 +0200
+
+
+Started GET "/assets/spinner.js?body=1" for 127.0.0.1 at 2014-10-20 19:48:08 +0200
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2014-10-20 19:48:08 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-20 19:48:08 +0200
+
+
+Started GET "/assets/facebook29.png" for 127.0.0.1 at 2014-10-20 19:48:08 +0200
+
+
+Started GET "/assets/blur_background.jpg" for 127.0.0.1 at 2014-10-20 19:48:08 +0200
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-10-20 19:48:08 +0200
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2014-10-20 19:48:08 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-20 19:48:10 +0200
+Processing by WelcomeController#index as HTML
+  [1m[36mCarousel Load (1.6ms)[0m  [1mSELECT "carousels".* FROM "carousels"  WHERE "carousels"."visible" = 't'  ORDER BY "carousels"."id" ASC[0m
+  Rendered welcome/index.html.erb within layouts/application (25.3ms)
+  Rendered layouts/_navigation.html.erb (1.6ms)
+  Rendered layouts/_messages.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 413ms (Views: 405.7ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/images11_140x140.jpg" for 127.0.0.1 at 2014-10-20 19:48:11 +0200
+
+
+Started GET "/assets/images12_140x140.jpg" for 127.0.0.1 at 2014-10-20 19:48:11 +0200
+
+
+Started GET "/assets/images13_140x140.jpg" for 127.0.0.1 at 2014-10-20 19:48:11 +0200
+
+
+Started GET "/assets/images1_500x500.jpg" for 127.0.0.1 at 2014-10-20 19:48:11 +0200
+
+
+Started GET "/assets/images2_500x500.jpg" for 127.0.0.1 at 2014-10-20 19:48:11 +0200
+
+
+Started GET "/assets/images3_500x500.jpg" for 127.0.0.1 at 2014-10-20 19:48:11 +0200
+
+
+Started GET "/assets/img_welcome_bottom.jpg" for 127.0.0.1 at 2014-10-20 19:48:11 +0200
+
+
+Started GET "/carousels" for 127.0.0.1 at 2014-10-20 19:48:28 +0200
+Processing by CarouselsController#index as HTML
+  [1m[35mCarousel Load (0.6ms)[0m  SELECT "carousels".* FROM "carousels"   ORDER BY "carousels"."id" ASC
+  Rendered carousels/index.html.erb within layouts/application (8.3ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 436ms (Views: 434.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/carousels" for 127.0.0.1 at 2014-10-20 19:49:13 +0200
+Processing by CarouselsController#index as HTML
+  [1m[36mCarousel Load (0.9ms)[0m  [1mSELECT "carousels".* FROM "carousels"   ORDER BY "carousels"."id" ASC[0m
+  Rendered carousels/index.html.erb within layouts/application (8.8ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 1024ms (Views: 1021.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/framework_and_overrides.css?body=1" for 127.0.0.1 at 2014-10-20 19:49:15 +0200
+
+
+Started GET "/assets/letter.css?body=1" for 127.0.0.1 at 2014-10-20 19:49:15 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-20 19:49:15 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-20 19:49:15 +0200
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 127.0.0.1 at 2014-10-20 19:49:15 +0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-10-20 19:49:15 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-20 19:49:15 +0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-10-20 19:49:15 +0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-10-20 19:49:15 +0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-10-20 19:49:15 +0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-10-20 19:49:15 +0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-10-20 19:49:15 +0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-10-20 19:49:15 +0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-10-20 19:49:15 +0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-10-20 19:49:15 +0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-10-20 19:49:15 +0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-10-20 19:49:15 +0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-10-20 19:49:15 +0200
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-10-20 19:49:15 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-20 19:49:15 +0200
+
+
+Started GET "/assets/auto_close_alert.js?body=1" for 127.0.0.1 at 2014-10-20 19:49:15 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-20 19:49:15 +0200
+
+
+Started GET "/assets/carousel.js?body=1" for 127.0.0.1 at 2014-10-20 19:49:15 +0200
+
+
+Started GET "/assets/lightbox.js?body=1" for 127.0.0.1 at 2014-10-20 19:49:15 +0200
+
+
+Started GET "/assets/omniauth_callbacks.js?body=1" for 127.0.0.1 at 2014-10-20 19:49:15 +0200
+
+
+Started GET "/assets/spinner.js?body=1" for 127.0.0.1 at 2014-10-20 19:49:15 +0200
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2014-10-20 19:49:15 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-20 19:49:15 +0200
+
+
+Started GET "/assets/facebook29.png" for 127.0.0.1 at 2014-10-20 19:49:15 +0200
+
+
+Started GET "/assets/blur_background.jpg" for 127.0.0.1 at 2014-10-20 19:49:15 +0200
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-10-20 19:49:15 +0200
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2014-10-20 19:49:15 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-20 19:49:18 +0200
+Processing by WelcomeController#index as HTML
+  [1m[35mCarousel Load (0.7ms)[0m  SELECT "carousels".* FROM "carousels"  WHERE "carousels"."visible" = 't'  ORDER BY "carousels"."id" ASC
+  Rendered welcome/index.html.erb within layouts/application (8.6ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 414ms (Views: 412.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/images12_140x140.jpg" for 127.0.0.1 at 2014-10-20 19:49:19 +0200
+
+
+Started GET "/assets/images13_140x140.jpg" for 127.0.0.1 at 2014-10-20 19:49:19 +0200
+
+
+Started GET "/assets/images1_500x500.jpg" for 127.0.0.1 at 2014-10-20 19:49:19 +0200
+
+
+Started GET "/assets/images11_140x140.jpg" for 127.0.0.1 at 2014-10-20 19:49:19 +0200
+
+
+Started GET "/assets/images3_500x500.jpg" for 127.0.0.1 at 2014-10-20 19:49:19 +0200
+
+
+Started GET "/assets/images2_500x500.jpg" for 127.0.0.1 at 2014-10-20 19:49:19 +0200
+
+
+Started GET "/assets/img_welcome_bottom.jpg" for 127.0.0.1 at 2014-10-20 19:49:19 +0200
+
+
+Started GET "/carousels" for 127.0.0.1 at 2014-10-20 19:49:22 +0200
+Processing by CarouselsController#index as HTML
+  [1m[36mCarousel Load (0.8ms)[0m  [1mSELECT "carousels".* FROM "carousels"   ORDER BY "carousels"."id" ASC[0m
+  Rendered carousels/index.html.erb within layouts/application (9.8ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 422ms (Views: 420.3ms | ActiveRecord: 0.8ms)
