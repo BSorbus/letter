@@ -1,27 +1,35 @@
-<h1>Listing users</h1>
+<div class="mydata">
+  <div class="container">
+    <p class="lead text-center">Lista użytkowników</p>
 
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
+      <table>
+        <thead>
+          <tr>
+            <th class="col-sm-2">Name</th>
+            <th class="col-sm-2">Email</th>
+            <th class="col-sm-2"> </th>
+          </tr>
+        </thead>
 
-  <tbody>
-    <% @users.each do |user| %>
-      <tr>
-        <td><%= user.name %></td>
-        <td><%= link_to 'Show', user %></td>
-        <td><%= link_to 'Edit', edit_user_path(user) %></td>
-        <td><%= link_to 'Destroy', user, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
+        <tbody>
+          <% @users.each do |user| %>
+            <tr>
+              <td><%= user.name %></td>
+              <td><%= user.email %></td>
+              <td>
+                <%= link_to 'Show', user %>
+                <%= link_to 'Edit', edit_user_path(user) %>
+                <%= link_to 'Destroy', user, method: :delete, data: { confirm: 'Are you sure?' } %>
+              </td>
+            </tr>
+          <% end %>
+        </tbody>
+      </table>
 
-<br>
+      <br>
 
-<%= link_to 'New User', new_user_path %>
+      <%= link_to 'New User', new_user_path, 
+                :class => "btn btn-primary glyphicon glyphicon-star-empty pull-right" %>
+
+  </div>
+</div>

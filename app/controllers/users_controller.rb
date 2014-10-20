@@ -2,6 +2,12 @@ class UsersController < ApplicationController
   before_filter :set_user, only: [:show, :edit, :update]
   before_filter :validate_authorization_for_user, only: [:edit, :update]
 
+  # GET /users
+  def index
+    @users = User.all
+  end
+
+
 
   # GET /users/1
   def show

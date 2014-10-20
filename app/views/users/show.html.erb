@@ -1,8 +1,21 @@
-<p id="notice"><%= notice %></p>
+<div class="mydata">
+  <div class="container">
+    <p class="lead text-center">Edycja użytkownika</p>
 
-<p>
-  <strong>Name:</strong>
-  <%= @user.name %>
-</p>
+	<p id="notice"><%= notice %></p>
 
-<%= link_to 'Edit', edit_user_path(@user) %>
+	<p>
+	  <strong>Name:</strong>
+	  <%= @user.name %>
+	</p>
+
+	<p>
+	  <strong>Email:</strong>
+	  <%= @user.email %>
+	</p>
+
+	<%= link_to 'Edit', edit_user_path(@user) %>
+
+
+  </div>
+</div>
