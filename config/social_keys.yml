@@ -5,8 +5,8 @@ development:
   twitter_key: "xOAHAlsH83xENwwentv9BEnCx"
   twitter_secret: "IpEgMrrEgzo7nVV5634iyKFhU0tHdQlzxdrdOw6HUPNhgfkDRA"
 
-  github_key: "YOUR_KEY"
-  github_secret: "YOUR_SECRET"
+  github_key: "24c5bf6f2c2f169c9033"
+  github_secret: "4a5c81f6c21cebaf054006dca8ac59cb345b8665"
 
   linkedin_key: "YOUR_KEY"
   linkedin_secret: "YOUR_SECRET"
@@ -21,8 +21,8 @@ production:
   twitter_key: "xOAHAlsH83xENwwentv9BEnCx"
   twitter_secret: "IpEgMrrEgzo7nVV5634iyKFhU0tHdQlzxdrdOw6HUPNhgfkDRA"
 
-  github_key: "YOUR_KEY"
-  github_secret: "YOUR_SECRET"
+  github_key: "24c5bf6f2c2f169c9033"
+  github_secret: "4a5c81f6c21cebaf054006dca8ac59cb345b8665"
 
   linkedin_key: "YOUR_KEY"
   linkedin_secret: "YOUR_SECRET"
