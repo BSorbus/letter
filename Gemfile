@@ -53,10 +53,14 @@ gem 'carrierwave'
 gem 'kaminari'
 gem 'devise'
 
+gem 'linkedin'
 gem 'omniauth'
-gem 'omniauth-twitter'
+gem 'omniauth-oauth2'
 gem 'omniauth-facebook'
+gem 'omniauth-github'
+gem 'omniauth-google-oauth2'
 gem 'omniauth-linkedin'
+gem 'omniauth-twitter'
 
 gem 'rails_12factor', group: :production
 
