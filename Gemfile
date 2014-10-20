@@ -53,6 +53,7 @@ gem 'carrierwave'
 gem 'kaminari'
 gem 'devise'
 
+gem 'koala'
 gem 'linkedin'
 gem 'omniauth'
 gem 'omniauth-oauth2'

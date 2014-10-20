@@ -27,6 +27,7 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
+    addressable (2.3.6)
     arel (5.0.1.20140414130214)
     autoprefixer-rails (3.1.1.20141001)
       execjs
@@ -90,6 +91,10 @@ GEM
     kaminari (0.16.1)
       actionpack (>= 3.0.0)
       activesupport (>= 3.0.0)
+    koala (1.9.0)
+      addressable
+      faraday
+      multi_json
     libv8 (3.16.14.7)
     linkedin (1.0.0)
       hashie (~> 3.0)
@@ -236,6 +241,7 @@ DEPENDENCIES
   jquery-rails
   jquery-turbolinks
   kaminari
+  koala
   linkedin
   omniauth
   omniauth-facebook
