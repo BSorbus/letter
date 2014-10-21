@@ -8,8 +8,8 @@ development:
   github_key: "24c5bf6f2c2f169c9033"
   github_secret: "4a5c81f6c21cebaf054006dca8ac59cb345b8665"
 
-  linkedin_key: "YOUR_KEY"
-  linkedin_secret: "YOUR_SECRET"
+  linkedin_key: "77rtffdk0a5y4m"
+  linkedin_secret: "G2rpZxx79CTs8rKX"
 
   google_key: "906080259768-s3situukklfkhsrjh6p43p5d36oj9s3u.apps.googleusercontent.com"
   google_secret: "ds1qcaP2hoDYCNTLRPeJwNRt"
@@ -24,8 +24,8 @@ production:
   github_key: "24c5bf6f2c2f169c9033"
   github_secret: "4a5c81f6c21cebaf054006dca8ac59cb345b8665"
 
-  linkedin_key: "YOUR_KEY"
-  linkedin_secret: "YOUR_SECRET"
+  linkedin_key: "77rtffdk0a5y4m"
+  linkedin_secret: "G2rpZxx79CTs8rKX"
 
   google_key: "906080259768-s3situukklfkhsrjh6p43p5d36oj9s3u.apps.googleusercontent.com"
   google_secret: "ds1qcaP2hoDYCNTLRPeJwNRt"
